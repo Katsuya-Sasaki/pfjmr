@@ -1,13 +1,16 @@
 Package: pfjmr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: To gather all useful functions and enable Fujimori lab. members to use them easily
 Version: 0.0.0
 Author: Katsuya Sasaki
 Maintainer: Katsuya Sasaki <aaa@iii.uuu>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: 
+    This packages aims to gather all useful functions developed by Fujimori lab members independently. This enables members to use these functions easily.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.0
+Imports:
+    graphics,
+    grDevices
