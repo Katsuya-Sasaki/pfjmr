@@ -2,5 +2,9 @@
 
 export(as.fctnum)
 export(dsp_palette)
+export(lib.all)
+export(pkg.not.installed)
+export(pkgs.install)
 importFrom(grDevices,colorRampPalette)
 importFrom(graphics,rect)
+importFrom(utils,install.packages)
